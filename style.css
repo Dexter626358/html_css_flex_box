@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(./fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(./fonts/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 0;
+    margin-bottom: 84px;
+}
+
+.navigation {
+    max-width: 533px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;    
+}
+
+.navigation_link {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    
+}
+
+.home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    
+}
+
+
+.content_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content_block {
+    max-width: 1170px;
+
+}
+
+.title {
+    margin-bottom: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+}
+
+.content {
+    margin-bottom: 52px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    max-width: 466px;
+}
+
+
+.content_buttons {
+    display: flex;
+    gap: 72px;
+}
+
+.button1 {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 15px 36px 16px 35px;
+    border: none;    
+}
+
+.video_link {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+}
+
+.brand_logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
+
+
+
+
